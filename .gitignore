@@ -1,0 +1,6 @@
+.venv/
+test_logs/aladdin/*
+!test_logs/aladdin/.gitkeep 
+*.spec
+*.pyc
+*.rar
