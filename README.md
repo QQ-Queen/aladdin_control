@@ -32,7 +32,7 @@
 - Follow instructions at ```aladdin_auto\README.md```
 
 
-### Some useful commands line:
+## Some useful commands line:
 - Install packages in requirements.txt
 
     ```
@@ -44,4 +44,15 @@
     python -m pip freeze > requirements.txt
     ```
 
+## Git commands:
 
+- Pull code from Github
+    ```
+    git pull
+    ```
+
+- Push committed code to Github
+    ```
+    git push origin main
+    ```
+    - Can replace ```main``` to the branch name
