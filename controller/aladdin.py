@@ -177,10 +177,11 @@ class AladdinController:
         self._terminate()
         interval = 60.0 * timeout
         f = self.get_all_infor
+        logging.info(f'Starting timer: interval = {interval!r}, func: {f!r}')
         t = Timer(interval, f, args=None, kwargs=None)
         t.start()
+        t.join()
         self._t = t
-        logging.info(f'Started timer: interval = {interval!r}, func: {f!r}')
             
         
     def _save_infor(self):
